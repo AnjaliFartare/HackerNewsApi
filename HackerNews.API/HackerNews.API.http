@@ -1,0 +1,6 @@
+@HackerNews.API_HostAddress = http://localhost:5097
+
+GET {{HackerNews.API_HostAddress}}/HackerNewsController/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "HackerNews.API\\HackerNews.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HackerNews.API.Tests\\HackerNews.API.Tests.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

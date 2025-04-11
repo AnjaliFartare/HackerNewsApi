@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "F3VVs/pkVh3q08oXAAqLeb2E6TrJWgOhrlAiu9RnZCY=",
+  "Source": "HackerNews.API",
+  "BasePath": "_content/HackerNews.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
