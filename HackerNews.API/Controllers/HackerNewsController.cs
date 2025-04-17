@@ -12,10 +12,13 @@ public class HackerNewsController : ControllerBase
         _service = service;
     }
 
+    /// <summary>
+    /// Get top 200 Hacker News stories.
+    /// </summary>
     [HttpGet]
     public async Task<IActionResult> GetStories([FromQuery] string search = "", int page = 1, int pageSize = 20)
     {
-        var stories = await _service.GetNewestStoriesAsync();
+        var stories = await _service.GetTopStoriesAsync();
 
         if (!string.IsNullOrEmpty(search))
         {

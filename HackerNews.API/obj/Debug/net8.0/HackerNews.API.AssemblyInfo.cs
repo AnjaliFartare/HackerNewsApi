@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HackerNews.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6efd16c7fee2a94f30a8dbc4d9eeb36db0d606c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d44300accbf46c13d0759f342b8cf670011f1403")]
 [assembly: System.Reflection.AssemblyProductAttribute("HackerNews.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HackerNews.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

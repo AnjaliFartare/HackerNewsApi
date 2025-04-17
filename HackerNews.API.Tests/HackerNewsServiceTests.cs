@@ -1,54 +1,66 @@
-using HackerNews.API.Models;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 using Moq;
 using Moq.Protected;
 using System.Net;
-using System.Net.Http.Json;
+
+namespace HackerNews.Tests;
 
 public class HackerNewsServiceTests
 {
     [Fact]
-    public async Task GetNewestStoriesAsync_ReturnsStories_FromApiAndThenFromCache()
+    public async Task GetTopStoriesAsync_ReturnsMockedData()
     {
-        // Arrange
-        var expectedStory = new StoryDto { Id = 1, Title = "Test Story", Url = "https://example.com" };
+        var memoryCache = new MemoryCache(new MemoryCacheOptions());
 
-        var handlerMock = new Mock<HttpMessageHandler>();
+        var mockFactory = new Mock<IHttpClientFactory>();
+        var mockLogger = new Mock<ILogger<HackerNewsService>>();
 
-        handlerMock.Protected()
-            .SetupSequence<Task<HttpResponseMessage>>(
-                "SendAsync",
-                ItExpr.IsAny<HttpRequestMessage>(),
+        var mockHttpMessageHandler = new Mock<HttpMessageHandler>();
+        mockHttpMessageHandler.Protected()
+            .Setup<Task<HttpResponseMessage>>("SendAsync",
+                ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.ToString().Contains("topstories")),
                 ItExpr.IsAny<CancellationToken>())
             .ReturnsAsync(new HttpResponseMessage
             {
                 StatusCode = HttpStatusCode.OK,
-                Content = JsonContent.Create(new List<int> { 1 })
-            })
+                Content = new StringContent("[1,2]"),
+            });
+
+        mockHttpMessageHandler.Protected()
+            .Setup<Task<HttpResponseMessage>>("SendAsync",
+                ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.ToString().Contains("item/1")),
+                ItExpr.IsAny<CancellationToken>())
             .ReturnsAsync(new HttpResponseMessage
             {
                 StatusCode = HttpStatusCode.OK,
-                Content = JsonContent.Create(expectedStory)
+                Content = new StringContent("{\"title\": \"Story 1\", \"url\": \"http://story1.com\"}"),
             });
 
-        var httpClient = new HttpClient(handlerMock.Object)
+        mockHttpMessageHandler.Protected()
+            .Setup<Task<HttpResponseMessage>>("SendAsync",
+                ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.ToString().Contains("item/2")),
+                ItExpr.IsAny<CancellationToken>())
+            .ReturnsAsync(new HttpResponseMessage
+            {
+                StatusCode = HttpStatusCode.OK,
+                Content = new StringContent("{\"title\": \"Story 2\", \"url\": \"http://story2.com\"}"),
+            });
+
+        var httpClient = new HttpClient(mockHttpMessageHandler.Object)
         {
             BaseAddress = new Uri("https://hacker-news.firebaseio.com/")
         };
 
-        var memoryCache = new MemoryCache(new MemoryCacheOptions());
+        mockFactory.Setup(x => x.CreateClient(It.IsAny<string>())).Returns(httpClient);
 
-        var service = new HackerNewsService(httpClient, memoryCache);
+        var service = new HackerNewsService(memoryCache, mockFactory.Object, mockLogger.Object);
 
-        // Act (First call - from API)
-        var result1 = await service.GetNewestStoriesAsync();
+        var stories = await service.GetTopStoriesAsync();
 
-        // Act (Second call - from cache)
-        var result2 = await service.GetNewestStoriesAsync();
-
-        // Assert
-        Assert.Single(result1);
-        Assert.Equal(expectedStory.Title, result1[0].Title);
-        Assert.Same(result1, result2);
+        Assert.NotNull(stories);
+        Assert.Equal(2, stories.Count());
+        Assert.Contains(stories, s => s.Title == "Story 1");
     }
+
 }

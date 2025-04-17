@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "HackerNews.API.Tests\\HackerNews.API.Tests.csproj",
+        "Path": "HackerNews.API.Tests\\HackerNews.Tests.csproj",
         "Action": "Start"
       }
     ]
