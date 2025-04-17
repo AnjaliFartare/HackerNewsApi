@@ -1,7 +1,6 @@
 # HackerNews API
 
 This ASP.NET Core Web API project fetches the stories from Hacker News and serves them to the frontend.
-Note: This project contains only the backend API code. The frontend is handled separately.
 
 ## Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
