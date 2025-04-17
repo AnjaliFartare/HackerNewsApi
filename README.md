@@ -1,27 +1,20 @@
-This is the back-end API built with ASP.NET Core that interacts with the official Hacker News API to fetch and cache the newest stories. It is designed to support an Angular front-end and provides features like story search, pagination, caching, and more.
+# HackerNews API
 
-🔹 Features
-•	Provides the newest stories from the Hacker News API.
-•	Caches story data using in-memory caching for improved performance.
-•	Allows story search by title.
-•	Supports pagination to limit stories per request.
-•	Implements dependency injection for service classes.
-•	Includes unit tests using xUnit.
-•	Integrated Swagger for interactive API documentation.
-•	CORS enabled for Angular front-end communication.
+This ASP.NET Core Web API fetches the top 200 stories from Hacker News and serves them to the frontend.
 
-🔹 Prerequisites
-•	.NET SDK 8 or higher
-•	IDE like Visual Studio or VS Code
+## Prerequisites
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
 
-🔹 Getting Started
-1. Clone the Repository: https://github.com/AnjaliFartare/HackerNewsApi.git
-2. Navigate to cd /HackerNews.API
-3. Restore Dependencies: dotnet restore
-4. Run the API
-5. API will start on : https://localhost:7107/api/hackernews
+## How to Run
+1. Open PowerShell.
+2. Navigate to this folder (/HackerNews.API).
+3. Run the script: HackerNewsApiRun.ps1
 
-🔹 Swagger Documentation
-•	Once running, open your browser and go to: https://localhost:7107/swagger/index.html
+## Powershell
+./HackerNewsApiRun.ps1
 
+## Troubleshooting
+If you see a script execution error, run this in PowerShell as administrator:
+Run this command : Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
+**Note**: To run API on Swagger UI go to (Make sure above poweshell script is running) : http://localhost:5000/swagger/index.html
