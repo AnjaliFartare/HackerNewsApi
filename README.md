@@ -17,4 +17,4 @@ This ASP.NET Core Web API fetches the top 200 stories from Hacker News and serve
 If you see a script execution error, run this in PowerShell as administrator:
 Run this command : Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-**Note**: To run API on Swagger UI go to (Make sure above poweshell script is running) : http://localhost:5000/swagger/index.html
+**Note**: To run the API on Swagger UI, click the link (make sure the above PowerShell script is running): http://localhost:5000/swagger/index.html
