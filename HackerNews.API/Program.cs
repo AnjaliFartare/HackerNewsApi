@@ -1,6 +1,4 @@
 using HackerNews.API.Interfaces;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +22,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularApp", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // Angular app URL
+        policy.WithOrigins("http://localhost:4200")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
@@ -32,7 +30,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddMemoryCache();
 builder.Services.AddHttpClient();
-builder.Services.AddHttpClient<IHackerNewsService, HackerNewsService>();
+builder.Services.AddScoped<IHackerNewsService, HackerNewsService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -6,7 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
-  </PropertyGroup>
+  </PropertyGroup> 
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.4" />
@@ -16,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Middleware\" />
+    <ProjectReference Include="..\HackerNews.Services\HackerNews.Services.csproj" />
   </ItemGroup>
 
 </Project>
