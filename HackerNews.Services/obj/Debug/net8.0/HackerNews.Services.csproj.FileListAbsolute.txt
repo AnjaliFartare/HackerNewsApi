@@ -11,3 +11,16 @@ D:\HackerNews\HackerNews\HackerNews\HackerNews.Services\obj\Debug\net8.0\HackerN
 D:\HackerNews\HackerNews\HackerNews\HackerNews.Services\obj\Debug\net8.0\refint\HackerNews.Services.dll
 D:\HackerNews\HackerNews\HackerNews\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.pdb
 D:\HackerNews\HackerNews\HackerNews\HackerNews.Services\obj\Debug\net8.0\ref\HackerNews.Services.dll
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\bin\Debug\net8.0\HackerNews.Services.deps.json
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\bin\Debug\net8.0\HackerNews.Services.dll
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\bin\Debug\net8.0\HackerNews.Services.pdb
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.csproj.AssemblyReference.cache
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.AssemblyInfoInputs.cache
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.AssemblyInfo.cs
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.csproj.CoreCompileInputs.cache
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.sourcelink.json
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.dll
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\refint\HackerNews.Services.dll
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\HackerNews.Services.pdb
+F:\GIT\HackerNewsApi\HackerNewsApi\HackerNews.Services\obj\Debug\net8.0\ref\HackerNews.Services.dll

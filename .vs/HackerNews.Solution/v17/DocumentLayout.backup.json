@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67AAB1-6188-4A73-A76D-6EAB71E7B5CB}|HackerNews.API\\HackerNews.API.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.api\\controllers\\hackernewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD67AAB1-6188-4A73-A76D-6EAB71E7B5CB}|HackerNews.API\\HackerNews.API.csproj|solutionrelative:hackernews.api\\controllers\\hackernewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFFACFB-E95F-45EF-AC40-FB39220FC2C4}|HackerNews.Services\\HackerNews.Services.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.services\\models\\storydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFFACFB-E95F-45EF-AC40-FB39220FC2C4}|HackerNews.Services\\HackerNews.Services.csproj|solutionrelative:hackernews.services\\models\\storydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67AAB1-6188-4A73-A76D-6EAB71E7B5CB}|HackerNews.API\\HackerNews.API.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.api\\viewmodels\\storylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD67AAB1-6188-4A73-A76D-6EAB71E7B5CB}|HackerNews.API\\HackerNews.API.csproj|solutionrelative:hackernews.api\\viewmodels\\storylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFFACFB-E95F-45EF-AC40-FB39220FC2C4}|HackerNews.Services\\HackerNews.Services.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.services\\services\\hackernewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFFACFB-E95F-45EF-AC40-FB39220FC2C4}|HackerNews.Services\\HackerNews.Services.csproj|solutionrelative:hackernews.services\\services\\hackernewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC48E82-A589-443E-9F67-107CF5407385}|HackerNews.API.Tests\\HackerNews.Tests.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.api.tests\\hackernewscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC48E82-A589-443E-9F67-107CF5407385}|HackerNews.API.Tests\\HackerNews.Tests.csproj|solutionrelative:hackernews.api.tests\\hackernewscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67AAB1-6188-4A73-A76D-6EAB71E7B5CB}|HackerNews.API\\HackerNews.API.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD67AAB1-6188-4A73-A76D-6EAB71E7B5CB}|HackerNews.API\\HackerNews.API.csproj|solutionrelative:hackernews.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC48E82-A589-443E-9F67-107CF5407385}|HackerNews.API.Tests\\HackerNews.Tests.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.api.tests\\hackernews.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8EC48E82-A589-443E-9F67-107CF5407385}|HackerNews.API.Tests\\HackerNews.Tests.csproj|solutionrelative:hackernews.api.tests\\hackernews.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC48E82-A589-443E-9F67-107CF5407385}|HackerNews.API.Tests\\HackerNews.Tests.csproj|f:\\git\\hackernewsapi\\hackernewsapi\\hackernews.api.tests\\hackernewsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC48E82-A589-443E-9F67-107CF5407385}|HackerNews.API.Tests\\HackerNews.Tests.csproj|solutionrelative:hackernews.api.tests\\hackernewsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HackerNews.Tests",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API.Tests\\HackerNews.Tests.csproj",
+              "RelativeDocumentMoniker": "HackerNews.API.Tests\\HackerNews.Tests.csproj",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API.Tests\\HackerNews.Tests.csproj",
+              "RelativeToolTip": "HackerNews.API.Tests\\HackerNews.Tests.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T14:33:44.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoryDto.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.Services\\Models\\StoryDto.cs",
+              "RelativeDocumentMoniker": "HackerNews.Services\\Models\\StoryDto.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.Services\\Models\\StoryDto.cs",
+              "RelativeToolTip": "HackerNews.Services\\Models\\StoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:43:01.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API\\Program.cs",
+              "RelativeDocumentMoniker": "HackerNews.API\\Program.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API\\Program.cs",
+              "RelativeToolTip": "HackerNews.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:49:23.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HackerNewsControllerTests.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API.Tests\\HackerNewsControllerTests.cs",
+              "RelativeDocumentMoniker": "HackerNews.API.Tests\\HackerNewsControllerTests.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API.Tests\\HackerNewsControllerTests.cs",
+              "RelativeToolTip": "HackerNews.API.Tests\\HackerNewsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:10:29.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HackerNewsService.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.Services\\Services\\HackerNewsService.cs",
+              "RelativeDocumentMoniker": "HackerNews.Services\\Services\\HackerNewsService.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.Services\\Services\\HackerNewsService.cs",
+              "RelativeToolTip": "HackerNews.Services\\Services\\HackerNewsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:40:42.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoryListViewModel.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API\\ViewModels\\StoryListViewModel.cs",
+              "RelativeDocumentMoniker": "HackerNews.API\\ViewModels\\StoryListViewModel.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API\\ViewModels\\StoryListViewModel.cs",
+              "RelativeToolTip": "HackerNews.API\\ViewModels\\StoryListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:45:37.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HackerNewsController.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API\\Controllers\\HackerNewsController.cs",
+              "RelativeDocumentMoniker": "HackerNews.API\\Controllers\\HackerNewsController.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API\\Controllers\\HackerNewsController.cs",
+              "RelativeToolTip": "HackerNews.API\\Controllers\\HackerNewsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:40:21.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HackerNewsServiceTests.cs",
+              "DocumentMoniker": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API.Tests\\HackerNewsServiceTests.cs",
+              "RelativeDocumentMoniker": "HackerNews.API.Tests\\HackerNewsServiceTests.cs",
+              "ToolTip": "F:\\GIT\\HackerNewsApi\\HackerNewsApi\\HackerNews.API.Tests\\HackerNewsServiceTests.cs",
+              "RelativeToolTip": "HackerNews.API.Tests\\HackerNewsServiceTests.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAIwHcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:41:03.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,10 +4,6 @@
         <name>HackerNews.API</name>
     </assembly>
     <members>
-        <member name="M:HackerNewsController.GetStories(System.String,System.Int32,System.Int32)">
-            <summary>
-            Get top 200 Hacker News stories.
-            </summary>
-        </member>
+        <!-- Badly formed XML comment ignored for member "M:HackerNewsController.GetStories(System.String,System.Int32,System.Int32)" -->
     </members>
 </doc>
